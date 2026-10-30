@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Wine Mail Intake Privacy Policy</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<h1>Privacy Policy</h1>
+<p class="muted">Wine Mail Intake · effective 2026-10-31 · <a href="index.html">Home</a></p>
+
+<h2>Who uses this app</h2>
+<p>Wine Mail Intake is a personal tool used only by its owner, with the owner's own Google account. It has no other
+users and is not offered to the public.</p>
+
+<h2>Google data accessed</h2>
+<ul>
+<li>Gmail, read-only (<code>https://www.googleapis.com/auth/gmail.readonly</code>).</li>
+<li>Only messages matching a search for order, shipping and delivery notifications from a fixed list of wine retailers
+and shipping services are read.</li>
+<li>The app never sends, deletes, modifies, labels or marks messages as read.</li>
+</ul>
+
+<h2>How the data is used</h2>
+<p>The app runs on the owner's own computer (self-hosted n8n, bound to that computer only). A message's subject and
+text are processed in memory only to extract wine purchase and shipping information, and are then discarded. Message
+subjects, message text, attachments, names, addresses and payment details are not stored, and run logs are not saved.</p>
+
+<h2>What is stored, and where</h2>
+<p>On the owner's computer only:</p>
+<ul>
+<li>Message metadata: Gmail message and thread IDs, message date, sender domain, a hash of the content, and the
+classification result.</li>
+<li>Extracted purchase and shipping details: retailer, order and tracking numbers, wine name, vintage, number of
+bottles, price, dates and status.</li>
+<li>The Google sign-in token, encrypted by n8n with a key kept in the macOS Keychain.</li>
+</ul>
+<p>Local backups of the same data are kept on the same computer (the most recent ten).</p>
+
+<h2>Sharing</h2>
+<ul>
+<li>For each new purchase or shipment, a proposal with the wine name, vintage, number of bottles, date, domestic or
+overseas delivery, price and retailer is posted to the owner's own <strong>private</strong> GitHub repository
+(GitHub, Inc.), so that the owner can approve or reject it. Order numbers, tracking numbers, message content and
+personal information are not included.</li>
+<li>Only proposals the owner approves are written to the owner's personal notes (stored in the owner's iCloud Drive).</li>
+<li>When maintaining or troubleshooting the app, the owner may use an AI assistant. In that case only the minimum
+information needed for the task may be shared with it; sign-in credentials and complete message content are not shared.</li>
+<li>Apart from the above, Google user data is not sold, not used for advertising, not shared with anyone else, and not
+used by the app to develop, improve or train AI or machine-learning models.</li>
+</ul>
+
+<h2>Limited Use</h2>
+<p>Wine Mail Intake's use and transfer of information received from Google APIs adheres to the
+<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+including the Limited Use requirements.</p>
+
+<h2>Retention and deletion</h2>
+<p>Data is kept on the owner's computer until the owner deletes it. Access can be revoked at any time in the
+<a href="https://myaccount.google.com/permissions">Google Account permissions</a> page; the app then can no longer
+read Gmail.</p>
+
+<h2>Changes and contact</h2>
+<p>Changes to this policy are published on this page with a new effective date. Contact: the owner via GitHub
+(<a href="https://github.com/shotatakashima">github.com/shotatakashima</a>).</p>
+
+<h2>日本語（要約）</h2>
+<ul>
+<li>所有者本人だけが自分の Google アカウントで使う個人用ツールです。</li>
+<li>Gmail は読み取り専用で、決められたワイン販売店・配送業者の注文・発送・配達通知だけを読みます。送信・削除・ラベル変更・既読化はしません。</li>
+<li>件名・本文は所有者のパソコン内で一時的に処理して破棄し、保存しません。氏名・住所・支払情報・添付ファイルも保存しません。</li>
+<li>所有者のパソコンにだけ、メールの識別情報（ID・日付・送信元ドメイン・ハッシュ・分類）と、抽出した購入・発送情報（販売店、注文番号・追跡番号、ワイン名、ヴィンテージ、本数、価格、日付、状態）を保存します。</li>
+<li>新しい購入・発送の候補（ワイン名・ヴィンテージ・本数・日付・国内/海外・価格・販売店。注文番号・追跡番号・本文・個人情報は含めない）を、所有者の<strong>非公開</strong> GitHub リポジトリに投稿し、所有者が承認したものだけを所有者の個人ノート（iCloud Drive）に記録します。</li>
+<li>所有者が保守・トラブルシューティングの際に AI アシスタントを利用する場合があり、その際は作業に必要な最小限の情報を共有することがあります（認証情報やメール全文は共有しません）。</li>
+<li>上記以外に、販売・広告・第三者提供はせず、本アプリが AI の学習に使うことはありません。Google API Services User Data Policy（Limited Use を含む）に従います。</li>
+<li>データは所有者が削除するまで所有者のパソコンに保存されます。アクセスは Google アカウントの権限ページからいつでも取り消せます。</li>
+</ul>
+</main>
+</body>
+</html>
