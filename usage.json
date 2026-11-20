@@ -1,9 +1,9 @@
 {
   "plan": "Power",
   "plan_price_jpy": 3499,
-  "weekly_used_percent": 32,
+  "weekly_used_percent": 33,
   "weekly_reset_at": "2026-11-21T22:41:00+09:00",
   "prev_weekly_used_percent": 32,
-  "prev_updated_at": "2026-11-20T18:31:41+09:00",
-  "updated_at": "2026-11-20T20:20:17+09:00"
+  "prev_updated_at": "2026-11-20T20:20:17+09:00",
+  "updated_at": "2026-11-21T05:20:22+09:00"
 }
